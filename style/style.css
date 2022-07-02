@@ -61,6 +61,7 @@
 }
 
 .sub__header-unit {
+    padding: 145px 0 145px 0;
     width: 420px;
     margin:  0px 194px 0 78px;
 }
@@ -82,5 +83,126 @@
 }
 
 .sub__header-img {
+    overflow: hidden;
+    height: 544px;
     margin-top: 100px;
+    
+}
+
+/*   FEATURES    */
+
+.features {
+    background-color: #222222;
+}
+
+.features__title {
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.features__subtitle {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.features__item {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.features__item-box {
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background:#FFFFFF; 
+}
+
+.features__img {
+    
+    padding: 10px 0 10px 10px ;
+}
+
+.features__img-phone  {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 300px; 
+   
+   
+}
+
+
+.features__text {
+    
+    border-radius: 20px;
+    background:#F2F2F2;
+    text-align: center;
+}
+
+/*   TECHNOLOGY   */
+
+.techno__item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tecnho__unit {
+    width: 420px;
+}
+
+.techno__title {
+    margin-top: 177px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.techno__subtitle {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.techno__text {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.techno__img {
+    margin-top: 100px;
+    overflow: hidden;
+    height: 544px;
+}
+
+/*   SPEED    */
+
+.speed {
+    margin-bottom: 100px;
+    background: #F2F2F2;
 }
