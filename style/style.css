@@ -33,7 +33,7 @@
 /*   HEDAER BUTTON    */
 .header__btn {
     margin-right: 20px;
-    padding: 10px 25px 12px 25px;
+    padding: 12px 25px 12px 25px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -265,6 +265,7 @@
 
 .dark__mode {
     margin-top: 50px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
 }
@@ -541,4 +542,115 @@
     padding-left: 20px;
 }
 
+/*    DOWNLOAD   */
 
+.download {
+    text-align: center;
+}
+
+.download h2 {
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+ .download h3 {
+    margin: 5px 0 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+}
+
+.download span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.download p {
+    margin: 25px 0 140px 0;
+    cursor: pointer;
+}
+
+
+/*    FAQ    */
+
+.faq {
+    text-align: left;
+    background: #E5E5E5;
+}
+
+.faq__item {
+    padding: 40px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq__text {
+   width: 50%;
+   padding: 0 15px 0 0;
+}
+
+.faq h2 {
+    padding-top: 105px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.faq__text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.faq p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+
+/*   FOOTER   */
+
+.footer {
+    text-align: center;
+}
+
+.footer__logo {
+    padding-top: 100px;
+}
+.footer a {
+    padding: 25px 10px 35px 10px;
+}
+
+.footer span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B1B1B1;
+    padding-bottom: 100px;
+}
+
+.footer strong {
+    color: #666666;
+}
