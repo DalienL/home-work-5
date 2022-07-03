@@ -118,41 +118,137 @@
 }
 
 .features__item {
-    margin-top: 15px;
+    margin-top: 35px;
+    padding-bottom: 80px;
     display: flex;
+    flex-wrap: wrap; 
     gap: 15px;
-
 }
 
 .features__item-box {
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    max-width: 380px;
     background:#FFFFFF; 
 }
 
 .features__img {
-    
-    padding: 10px 0 10px 10px ;
-}
-
-.features__img-phone  {
-    margin: 0;
-    padding: 0;
+    padding-top: 45px;
+    height: 300px;
     overflow: hidden;
-    height: 300px; 
-   
-   
 }
-
 
 .features__text {
-    
-    border-radius: 20px;
+    position: relative;
     background:#F2F2F2;
     text-align: center;
+    border-radius: 0px 0px 20px 20px;
 }
+
+.features__text img {
+    position: relative;
+    top: -30px;
+}
+
+.features__text img:hover {
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.features__title-blue {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0278ED;
+}
+
+.features__title-orange {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FF5437;
+}
+
+.features__title-yellow {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FF9209;
+}
+
+.features__title-pink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #E738CE;
+}
+
+.features__title-aqua {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #00C6DF;
+}
+
+.features__title-purple {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B25DF8;
+}
+
+.features__subtext {
+    padding: 0 30px 25px 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #222222;
+}
+
+/* STATS */
+
+.stats {
+    background: #FF5437;
+}
+
+.stats__item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats__title {
+    padding-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.stats__text {
+    padding-bottom: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
 
 /*   TECHNOLOGY   */
 
